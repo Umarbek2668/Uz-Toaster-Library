@@ -31,7 +31,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = '1.0.8'
+        jvmTarget = '1.8'
     }
     buildToolsVersion '31.0.0'
 }
