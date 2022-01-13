@@ -4,6 +4,9 @@ plugins {
     id 'maven-publish'
 }
 
+group = ("com.gihub.jitpack")
+version = "1.0.1"
+
 android {
     compileSdk 31
 
@@ -24,11 +27,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = '11'
+        jvmTarget = '1.0.8'
     }
     buildToolsVersion '31.0.0'
 }
